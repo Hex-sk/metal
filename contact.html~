@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Metal inzenjering Sisak</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../dist/css/justified-nav.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="masthead">
+        <h3>Metal inženjering</h3>
+        <ul class="nav nav-justified">
+          <li><a href="index.html" data-toggle="tooltip" title="Naslovna stranica">Home</a></li>
+          <li><a href="products.html" data-toggle="tooltip" title="Popis proizvoda u nasoj ponudi">Proizvodi</a></li>
+          <li><a href="services.html" data-toggle="tooltip" title="Opis usluga koje nudimo">Usluge</a></li>
+          <li>&nbsp;</li>
+          <li><a href="about.html" data-toggle="tooltip" title="Osnovni podaci o nama">O nama</a></li>
+          <li  class="active"><a href="#" data-toggle="tooltip" title="Lokacija i podaci za kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>Metal inženjering</h2><br /><br />
+          <p class="text-danger">Kontakt:</p>
+          <p>Broj telefona:&nbsp+385&nbsp(44)&nbsp531&nbsp631<br/>
+	     Broj faksa:&nbsp+385&nbsp(44)&nbsp534&nbsp925<br />
+	     Broj mobitela:&nbsp+385&nbsp(98)&nbsp262&nbsp601<br />
+	     Elektronska pošta:&nbspmetalinzsk@net.amis.hr
+	  </p>
+          <p class="text-danger">Radno vrijeme:</p>
+          <p>Ponedjeljak-petak: 8-16</p>
+          <!--<p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p> -->
+        </div>
+        <div class="col-lg-4"><br /><br /><br ><br /><br />
+	  <p class="text-danger">Kako do nas:</p>
+	  <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d178827.4530567903!2d16.310236451692397!3d45.54672549723702!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4766edefd7535ac9%3A0xf324e635d0c65341!2sZibelska+ulica+15%2C+44000%2C+Sisak%2C+Croatia!5e0!3m2!1sen!2s!4v1390832566865" width="600" height="450" frameborder="0" style="border:0"></iframe></p>
+        </div>
+      </div>
+
+      <!-- Site footer -->
+      <div class="footer">
+        <p>&copy; Metal inzenjering 2014</p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../dist/js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+    		$('[data-toggle="tooltip"]').tooltip({
+        		placement : 'bottom'
+    		});
+	});
+    </script>
+  </body>
+</html>
+
